@@ -70,3 +70,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+ProjectSettings/GvhProjectSettings.xml
+Assets/Plugins/Borodar/RainbowHierarchy/Source/RainbowHierarchy.src.unitypackage.meta
+Assets/Imported Packages/Epic Toon FX/Upgrade/ETFX Standard Materials.unitypackage.meta
+Assets/Imported Packages/Epic Toon FX/Upgrade/ETFX 2019.3 URP Fix.unitypackage.meta
+Assets/Imported Packages/Epic Toon FX/Upgrade/ETFX 2019.2.3f1 LWRP Upgrade.unitypackage.meta
+Assets/HighlightPlusBundle/URP/HighlightPlus_URP_Pipeline.unitypackage.meta
+Assets/HighlightPlusBundle/Builtin/HighlightPlus_Builtin_Pipeline.unitypackage.meta
+Assets/GUI PRO Kit - Simple Casual/Sprite/Component/Icon_PictoIcons_(x2)/PictoIcons_(x2).unitypackage.meta
+Assets/GUI PRO Kit - Simple Casual/Sprite/Component/Icon_ItemIcons_(x2)/ItemIcons_(x2).unitypackage.meta
