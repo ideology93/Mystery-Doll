@@ -62,11 +62,11 @@ namespace NLO
             item.SetActive(true);
 
             bc.itemUI.transform.GetChild(0).
-            transform.GetChild(0).
+            transform.GetChild(1).
             GetComponent<Image>().sprite = sprite;
 
             bc.itemUI.transform.GetChild(0).
-            transform.GetChild(0).GetComponent<Image>().SetNativeSize();
+            transform.GetChild(1).GetComponent<Image>().SetNativeSize();
 
             PlayerPrefs.SetInt("currentItem", PlayerPrefs.GetInt("currentItem") + 1);
 

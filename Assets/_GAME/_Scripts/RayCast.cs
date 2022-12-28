@@ -13,6 +13,7 @@ namespace NLO
         public PaintController paintController;
         public BaggieController baggieController;
         [SerializeField] Camera mainCamera;
+         public ParticleSystem ps1, ps2;
         public FakeClothes fk;
         RaycastHit hit;
 
@@ -57,6 +58,7 @@ namespace NLO
                             baggieController.ToggleHighlight();
                         baggieController.SelectBaggie(GimmeTheBaggie());
                         fk.baggie = hit.transform.gameObject;
+                        hit.transform.GetChild(0).GetComponent<ParticleSystem>().Play();
 
 
                     }
@@ -87,6 +89,9 @@ namespace NLO
                     {
                         hit.transform.GetComponent<Box>().DoStuff();
                         BoxController.Instance.isSelected = true;
+                        ps1.Play();
+                        ps2.Play();
+
 
 
                     }
