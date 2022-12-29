@@ -5941,6 +5941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandWednesday
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8790af00ac92aeb45a3acd2978fa1d96, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8790af00ac92aeb45a3acd2978fa1d96, type: 3}
 --- !u!4 &151227018 stripped
@@ -63548,7 +63552,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1599333832
 Transform:
   m_ObjectHideFlags: 0
@@ -67393,7 +67397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9e31a46ac69a49743a56949dca85fd20, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5433269313094510252, guid: 9e31a46ac69a49743a56949dca85fd20, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -102660,7 +102664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b152ed63a8369f448e176cb3904ddb2, type: 2}
+  - {fileID: 2100000, guid: ba37709ba12fa1048850befd515a078a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109586,7 +109590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7743757892157398900
 Transform:
   m_ObjectHideFlags: 0
@@ -111635,7 +111639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8487572743744684370
 Transform:
   m_ObjectHideFlags: 0
@@ -113799,7 +113803,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b152ed63a8369f448e176cb3904ddb2, type: 2}
+  - {fileID: 2100000, guid: ba37709ba12fa1048850befd515a078a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
